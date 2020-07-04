@@ -1,0 +1,716 @@
+import React, { Component } from 'react';  
+import { TouchableOpacity, ScrollView, Image, Text, Button, StyleSheet } from 'react-native';  
+import PropTypes from 'prop-types';
+import { Divider } from 'react-native-elements';
+import {Linking} from 'react-native';
+  
+export default class AmbulanceStation extends Component {  
+     
+  
+    render() {  
+        return (  
+            <ScrollView >  
+
+<Divider style={{height:1}}/>
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-229746');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>:Ahlone(Lower KyeMyinDaing Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-229746</Text>
+		          </TouchableOpacity>
+              
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-795899634');}} style={styles.buttonStyle}>
+              <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Bahan(New University Avenue Rd)</Text>
+              <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-795899634</Text>
+            </TouchableOpacity>
+
+<Divider style={{height:1}}/>          
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-292836');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Botahtaung(Yangon General Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-292836</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-392028');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Botahtaung(Strand Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-392028</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-420640020');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Botahtaung(63rd St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-252200067</Text>
+                </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-291874');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Botahtaung(Lower Middle Block)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-291874</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-538914');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Dagon(Yangon Children Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-538914</Text>
+		          </TouchableOpacity>
+              
+                
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-374427');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Dagon(Padonmar St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-374427</Text>
+		          </TouchableOpacity>
+                
+
+<Divider style={{height:1}}/>
+
+          <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-593007');}} style={styles.buttonStyle}>
+              <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Dagon Seikkan(Bago River Rd)</Text>
+              <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-593007</Text>
+          </TouchableOpacity>
+            
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-556988');}} style={styles.buttonStyle}>
+              <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Dawbon(Yamonnar Rd)</Text>
+              <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-556988</Text>
+          </TouchableOpacity>
+            
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-3585134');}} style={styles.buttonStyle}>
+              <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>East Dagon(U TunMyat BusStop)</Text>
+              <Text  style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}> 01-3585134</Text>
+          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-584109');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>East Dagon(Anawrahta Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}> 01-584109</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+          <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-3585187');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>East Dagon(MinYeKyawSwar Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-3585187</Text>
+		          </TouchableOpacity>
+ 
+ <Divider style={{height:1}}/>
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-73141740');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>East Dagon(Mental Health Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-73141740</Text>
+		          </TouchableOpacity>
+                             
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-9000716');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Mingalar Taung Nyunt(Padauk St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9000716</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-796928977');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(Nawaday Garden Housing)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-796928977</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-505284');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Hlaing(6½ Mile)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-505284</Text>
+		          </TouchableOpacity>    
+              
+<Divider style={{height:1}}/>
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-421042679');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(Pan Hlaing Golf Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-421042679</Text>
+		          </TouchableOpacity>
+              
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-43064598');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Hlaing(Marlar Myaing 5th St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-43064598</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-519531');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Hlaing(Insein Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-519531</Text>
+		          </TouchableOpacity>
+              
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-645016');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Hlaing Thar Yar(NyaungTone Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-645016</Text>
+		          </TouchableOpacity>
+            
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-43114919');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(HlaingYadanar St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-43114919</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-688021');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(Anawrahta Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-688021</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-681574');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Hlaing(Bayint Naung Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-681574</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-645029');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(NyaungTone Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-645029</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-772707805');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Hlaing Thar Yar(ShweLinban Ind:)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-772707805</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-645819');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Insein(Near YwarMa Bus Stop)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-645819</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-43070883');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Insein(Bayint Naung Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-43070883</Text>
+		          </TouchableOpacity>
+              
+<Divider style={{height:1}}/>
+
+             <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-500100');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Kamayut(Thukha Gabar Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-500100</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-513628');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kamayut(University Avenue Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-513628</Text>
+		          </TouchableOpacity>        
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-222861');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Kyeemyin Daing(Yangon General Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-222861</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-534304');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kamayut(Hledan Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-534304</Text>
+              </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-5401677');}} style={styles.buttonStyle}>
+                <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kamayut(Baho Rd)</Text>
+                <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-5401677</Text>
+              </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-371054');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kyauktada(Sule Pagoda Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-371054</Text>
+              </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-9317099');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kyeemyin Daing(Upper Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9317099</Text>
+              </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-1880');}} style={styles.buttonStyle}>
+                <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Kamayut(Bayint Naung Rd)</Text>
+                <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-1880</Text>
+              </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-2300631');}} style={styles.buttonStyle}>
+                    <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Lanmadaw(Bahosi Hospital)</Text>
+                    <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-2300631</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-2300551');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Lanmadaw(Lan Thit St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-2300551</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-222804');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Lanmadaw(Central Women's Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-222804</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-224528');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Lanmadaw(Maha Bandoola Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-224528</Text>
+              </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-253202');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Latha(Latha St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-253202</Text>
+              </TouchableOpacity>
+  
+  <Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-379106');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Lanmadaw(Yangon General Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-379106</Text>
+		          </TouchableOpacity>
+                
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-256112');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Latha(Yangon General Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-256112</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-420640020');}} style={styles.buttonStyle}>
+              <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mayangone(Mitharsu St)</Text>
+              <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-420640020</Text>
+            </TouchableOpacity>
+
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-3680774');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mayangone(Thiri Mon Plaza)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-3680774</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-551196');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mingalardon(Htauk Kyant)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9437032</Text>
+		          </TouchableOpacity>
+              
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-660352');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mayangone(SwelTawMyat St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-660352</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-421060999');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mingalar TaungNyunt(MMA)</Text>
+                  <Text  style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-421060999</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-962233772');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Mingalardon(No[3] Main Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-962233772</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-424999920');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Mingalardon(Golden Middle Way)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}> 09-424999920</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-783666145');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Mayangone(Victoria Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-783666145</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-291034');}} style={styles.buttonStyle}>
+                <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>MingalaTaungNyunt(BoMinYg Rd)</Text>
+                <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-291034</Text>
+            </TouchableOpacity>
+  
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-635074');}} style={styles.buttonStyle}>
+                <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Mingalardon(KhaYaePin Junction)</Text>
+                <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-635074</Text>
+            </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-420114536');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Mayangone(Inya Lake Hotel)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-420114536</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-372802');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Mingalar TaungNyunt(Kun Chan St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-372802</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-695561');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>North Okkalapa(NyaungYan St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-695561</Text>
+		          </TouchableOpacity>
+                              
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-9699384');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>North Okkalapa(KhayMarThi Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9699384</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+        <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-580084');}} style={styles.buttonStyle}>
+            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>North Dagon(Khartawmi St)</Text>
+            <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-580084</Text>
+          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-9699138');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>North Okkalapa(Gant Gaw St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9699138</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+          <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-9699410');}} style={styles.buttonStyle}>
+            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>North Okkalapa(May Darwi Rd)</Text>
+            <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-9699410</Text>
+          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-420032347');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>North Dagon(BoHmu BaHtoo Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-420032347</Text>
+		          </TouchableOpacity>
+
+ <Divider style={{height:1}}/>
+              
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-421060011');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Pazundaung(Tharyar Gone Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-421060011</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+              
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-291240');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Pazundaung(Bogyoke AungSan Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-291240</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-371397');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Pabedan(KonZayDan St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-371397</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-551196');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>South Okkalapa(Warunar St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-551196</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-590093');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>South Dagon(Aung Zeya St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-590093</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-8602365');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>South Dagon(Bayint Naung St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-8602365</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-695717576');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Shwe Pyi Thar(Hlaw Ga Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-695717576</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-512668');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Sanchaung(Sakura Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-512668</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-2331642');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>South Okkalapa(Thu Mingalar Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-2331642</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-428631044');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>South Okkalapa(Warunar St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-428631044</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>     
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-250006619');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>South Dagon(NatMauk St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-250006619</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-535184');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Sanchaung(Dhama Zayti Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-535184</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-268013');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>SeikGyi KhaNaungTo(Baho St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-268013</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-2316980');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Seik Kan(Strand Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-2316980</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+            <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-504927');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Sanchaung(Mahar Myaing Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-504927</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-450664060');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>South Dagon(Ziwaka St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-450664060</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-448044142');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>South Dagon(KawThaung Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-448044142</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-421142755');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>South Dagon(Bayint Naung Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-421142755</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-538055');}} style={styles.buttonStyle}>
+                  <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Sanchaung(Asia Royal Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-538055</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-500005');}} style={styles.buttonStyle}>
+                    <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Sanchaung(Pyay Rd)</Text>
+                    <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-500005</Text>
+                </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-291240');}} style={styles.buttonStyle}>
+                      <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Shwe Pyi Thar(Bayint Naung Rd)</Text>
+                      <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-3610664</Text>
+                  </TouchableOpacity>
+  
+<Divider style={{height:1}}/>
+              
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:056-21504');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Than Lyin(KyaikKhauk Pagoda Rd)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>056-21504</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-556865');}} style={styles.buttonStyle}>
+                      <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Thaketa(Myin Taw Thar Rd)</Text>
+                      <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-556865</Text>
+                  </TouchableOpacity>
+  
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-547253');}} style={styles.buttonStyle}>
+                      <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Thaketa(Ayeyar Wun Rd)</Text>
+                      <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-547253</Text>
+                  </TouchableOpacity>
+  
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-8562544');}} style={styles.buttonStyle}>
+                    <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Thingangyun(U SanPhay St)</Text>
+                    <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-8562544</Text>
+                </TouchableOpacity>
+                  
+<Divider style={{height:1}}/>
+
+                  <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-562588');}} style={styles.buttonStyle}>
+                    <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Thingangyun(ThanThuMar Rd)</Text>
+                    <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-562588</Text>
+                </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-573631');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:17,}}>Thingangyun(Aung Yadanar Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-573631</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-579891');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Thingangyun(Kyaikkasan Pagoda St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-579891</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-425295562');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Thaketa(Htu Par Yone 12th St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-425295562</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-455500010');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:18,}}>Thingangyun(Wai Lu Kyaw Foundation)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-455500010</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-5194813');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Thaketa(Zeya Waddy St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-5194813</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-258480303');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Thaketa(ZawTaYone St)</Text>
+                  <Text  style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-258480303</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-554455');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Tarmwe(Worker's Hospital)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-554455</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+                <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-772988988');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Tarmwe(Yangon Rescue)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-772988988</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-440031199');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Yankin(Yan Aung 6th St)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-440031199</Text>
+		          </TouchableOpacity>
+
+<Divider style={{height:1}}/>
+      
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:09-264592227');}} style={styles.buttonStyle}>
+			            <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Yankin(Moe Say Tanar Charity)</Text>
+                  <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>09-264592227</Text>
+		          </TouchableOpacity>
+                
+<Divider style={{height:1}}/>
+
+              <TouchableOpacity onPress={()=>{Linking.openURL('tel:01-577071');}} style={styles.buttonStyle}>
+                <Text style={{textAlign: 'left', color: '#ffffff',fontSize:19,}}>Yankin(Thitsar Rd)</Text>
+                <Text style={{textAlign: 'right', color: '#ffffff',fontSize:20,}}>01-577071</Text>
+              </TouchableOpacity>
+
+
+            </ScrollView>  
+        );  
+    }  
+} 
+
+  
+  const styles = StyleSheet.create({
+    
+    buttonStyle: {
+      paddingTop:27,
+      paddingBottom:27,
+      paddingLeft:10,
+      paddingRight:10,
+      flexDirection:"row",
+      justifyContent:"space-between",
+      backgroundColor: '#b80000',
+      
+    }
+  });

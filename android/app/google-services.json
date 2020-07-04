@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778699239530",
+    "firebase_url": "https://myanmar-emergency-phone-e6c2c.firebaseio.com",
+    "project_id": "myanmar-emergency-phone-e6c2c",
+    "storage_bucket": "myanmar-emergency-phone-e6c2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778699239530:android:3e7ad44b3c075323895a13",
+        "android_client_info": {
+          "package_name": "com.myanmar_emergency_phone_number"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778699239530-shv5d6duf79f2afu8g8qb03agmg3ucel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdYPGbSDRv1gnSnckJYjZdwcCRV0cfjag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778699239530-shv5d6duf79f2afu8g8qb03agmg3ucel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
